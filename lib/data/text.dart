@@ -43,7 +43,7 @@ class FooterData {
   static const contactPart4 = "Instagram DMs";
   static const contactPart5 = ".";
 
-  static const copyright = "© 2023 by Mrigank Doshy";
+  static const copyright = "© 2023 by Hemant Bansal";
   static const version = "v1.1.0";
 }
 

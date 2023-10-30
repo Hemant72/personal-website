@@ -15,11 +15,11 @@ class Work extends StatelessWidget {
         bottom: 64.0,
         right: ResponsiveWidget.isAtLeastLargeScreen(context) ? 136.0 : 0.0,
       ),
-      child: Column(
+      child: const Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          const SlideAnimation(
+          SlideAnimation(
             animationKey: Keys.workSection,
             delay: Duration(milliseconds: 50),
             child: SectionTitle(

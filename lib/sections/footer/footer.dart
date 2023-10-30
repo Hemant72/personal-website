@@ -158,15 +158,9 @@ class Footer extends StatelessWidget {
         ),
         const SizedBox(width: 24.0),
         ClickableIcon(
-          icon: FontAwesomeIcons.youtube,
-          iconSize: iconSize,
-          url: Url.youtube,
-        ),
-        const SizedBox(width: 24.0),
-        ClickableIcon(
           icon: FontAwesomeIcons.spotify,
           iconSize: iconSize,
-          url: Url.spotify,
+          url: "",
         ),
       ],
     );
