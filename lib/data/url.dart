@@ -5,6 +5,9 @@ class Url {
   static const pennState = "https://psu.edu";
   static const volvo = "https://volvotrucks.us";
 
+  static const chefkart = "https://thechefkart.com/";
+  static const gigforce = "https://gigforce.in/";
+
   // Technologies
   static const react = "https://reactjs.org/";
   static const reactNative = "https://reactnative.dev/";
@@ -39,11 +42,12 @@ class Url {
   // Contact and Social
   static const email = "mailto:hemantbansal172000@gmail.com";
   static const github = "https://github.com/Hemant72";
-  static const instagram = "https://www.instagram.com/mrigankdoshy";
-  static const linkedin = "https://www.linkedin.com/in/hemant-bansal-29347b171/";
+  static const instagram = "https://www.instagram.com/hemant3350/";
+  static const linkedin =
+      "https://www.linkedin.com/in/hemant-bansal-29347b171/";
   static const twitter = "https://www.twitter.com/Hemant_172";
   static const websiteSourceCode =
-      "https://github.com/mrigankdoshy/personal-website";
+      "https://github.com/Hemant72/personal-website";
 
   // Resume
   static const resume =

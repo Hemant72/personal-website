@@ -24,6 +24,10 @@ class Keys {
   static const volvo = Key("volvo");
   static const mule = Key("mule");
 
+  static const chefkart = Key("chef_kart");
+  static const gigforce = Key("gigforce");
+  static const kodeleaf = Key("kodeleaf");
+
   static const footerText = Key("footer_text");
   static const footerContact = Key("footer_contact");
   static const socialMedia = Key("social_media");

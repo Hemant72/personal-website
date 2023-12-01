@@ -13,12 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Hemant Bansal | Software Engineer',
       theme: ThemeData(
         canvasColor: AppColors.backgroundBlue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: 'Calibre',
-        // useMaterial3: true,
+        useMaterial3: false,
       ),
       home: const Home(),
     );

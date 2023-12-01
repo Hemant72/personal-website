@@ -55,6 +55,28 @@ class IntroData {
       "I'm a software engineer, with a passion for developing (and occasionally designing) digital experiences. Currently, I'm focused on building sustainable and comprehensive machine health centered products at ";
 }
 
+class Chefkart {
+   static const startDate = "August 2021";
+  static const endDate = "Present";
+
+  static const point1Part1 =
+      "Develop and maintain major features of KCF's comprehensive machine health web app using ";
+  static const point1Part2 = ", ";
+  static const point1Part3 = " / ";
+  static const point1Part4 = " and ";
+
+  static const point2 =
+      "Build an issue management and remediation system with a streamlined process for capturing issues, facilitating conversations, and implementing recommended actions";
+
+  static const point3Part1 =
+      "Lead a team of developers to build a new cross-platform mobile app using ";
+  static const point3Part2 =
+      " with a focus on issue remediation and hardware management";
+
+  static const point4 =
+      "Core member of a small select team that's building an extensive Design System / Component Library and coherent user experiences across multiple apps";
+}
+
 class KcfData {
   static const startDate = "August 2021";
   static const endDate = "Present";

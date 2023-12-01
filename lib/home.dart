@@ -1,6 +1,5 @@
 import 'package:auto_animated/auto_animated.dart';
 import 'package:flutter/material.dart';
-import 'package:my_personal_website/commons/commons.dart';
 import 'package:my_personal_website/data/keys.dart';
 import 'package:my_personal_website/data/text.dart';
 import 'package:my_personal_website/data/url.dart';
@@ -8,8 +7,11 @@ import 'package:my_personal_website/sections/about/about.dart';
 import 'package:my_personal_website/sections/footer/footer.dart';
 import 'package:my_personal_website/sections/intro/intro.dart';
 import 'package:my_personal_website/sections/projects/projects.dart';
+import 'package:my_personal_website/sections/work/work.dart';
 import 'package:my_personal_website/theme/theme.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import 'commons/commons.dart';
 
 class Home extends StatelessWidget {
   static final List<GlobalKey> dataKeys =
@@ -129,8 +131,7 @@ class Home extends StatelessWidget {
       children: <Widget>[
         const Intro(),
         About(key: dataKeys[0]),
-        //TODO: work in this part
-        // Work(key: dataKeys[1]),
+        Work(key: dataKeys[1]),
         Projects(key: dataKeys[2]),
         Footer(key: dataKeys[3]),
       ],
